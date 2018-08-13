@@ -1,0 +1,17 @@
+E:\Examples\Docker\DockerSample\DockerSample
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=DockerSample
+--content-root=E:\Examples\Docker\DockerSample\DockerSample
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Blogs\Create.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Blogs\Delete.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Blogs\Details.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Blogs\Edit.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Blogs\Index.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Home\About.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Home\Contact.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Home\Index.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Shared\Error.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Shared\_Layout.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\_ViewImports.cshtml
+--file=E:\Examples\Docker\DockerSample\DockerSample\Views\_ViewStart.cshtml
