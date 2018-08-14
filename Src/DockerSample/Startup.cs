@@ -26,9 +26,9 @@ namespace DockerSample
             services.AddMvc();
 
             //var connection = @"Server=LAPTOP-JT0NBJQ0\SQLEXPRESS;Database=DockerSample;Trusted_Connection=True;ConnectRetryCount=0";
-            var connection = @"Server=db;Database=DockerSample;User Id=sa;Password=Sa123#";
-            
-            services.AddDbContext<BloggingContext>(options => options.UseSqlServer(connection));
+            //var connection = @"Server=db;Database=DockerSample;User Id=sa;Password=Sa123#";
+
+            services.AddDbContext<BloggingContext>(options => options.UseSqlServer(Configuration["ConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

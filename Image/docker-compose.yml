@@ -1,7 +1,6 @@
 version: '3.4'
 
-services:
-  
+services:  
   db:
     image: microsoft/mssql-server-windows-express
     ports:
@@ -13,8 +12,9 @@ services:
   dockersample:
     depends_on:
        - db
-    image: asdrasika/rasikadockersample:v3
+    image: asdrasika/rasikadockersample:v5
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Development      
+      - ConnectionString=Server=db;Database=DockerSample;User Id=sa;Password=Sa123#
     ports:
       - "8080:80"
