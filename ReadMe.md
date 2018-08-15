@@ -24,4 +24,11 @@ https://docs.docker.com/compose/
 9. Docker image/container layers, peristing data with volumes
 https://docs.docker.com/storage/
 https://docs.docker.com/storage/storagedriver/#images-and-layers
+
+10. Why docker ?
+
+11. Advanced tutorials
+https://code-maze.com/docker-series/
+Microservices example: https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/multi-container-applications-docker-compose
+
  
